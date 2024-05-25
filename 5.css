@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #5abbdf;
+}
+
+#clock {
+    background-color: rgb(92, 156, 172);
+    padding: 80px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(234, 121, 121);
+    text-align: center;
+}
+
+#timer-label {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#time-left {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: rgba(250, 11, 11, 0.885);
+
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.clock-text,
+#break-label,
+#session-label,
+#break-Minutes,
+#session-Minutes {
+    color: white;
+}
+
+/*#start_stop {
+    background-color: blue; 
+    color: white; 
+}
+
+#reset {
+    background-color: red; 
+    color: white; 
+}*/
+
+
+
+
+
+
